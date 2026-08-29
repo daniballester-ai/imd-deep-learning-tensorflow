@@ -1,0 +1,14 @@
+{
+  "original": {
+    "params": 94533,
+    "size_mb": 0.36444568634033203,
+    "test_accuracy": 0.9928888888888889
+  },
+  "reduced": {
+    "params": 24229,
+    "size_mb": 0.09625720977783203,
+    "test_accuracy": 0.9951111111111111
+  },
+  "size_reduction_pct": 73.58805073413774,
+  "accuracy_delta_pp": 0.22222222222221255
+}
