@@ -14,11 +14,11 @@ Atividade 02 da disciplina, composta por 3 tarefas que percorrem o caminho de ML
 
 ## 📌 Tarefas
 
-### 1️⃣ [Estudo Dirigido: TensorFlow Playground](atividade_02/README.md) ✅
+### 1️⃣ [Estudo Dirigido: TensorFlow Playground](tarefa-1-playground-tensorflow/README.md) ✅
 
 Exploração guiada dos hiperparâmetros de uma MLP no [TensorFlow Playground](https://playground.tensorflow.org) — funções de ativação (tanh, ReLU, linear), taxa de aprendizagem, risco de mínimos locais e regularização (L1/L2) num dataset em espiral — seguida das respostas aos exercícios de fixação sobre formatos de matrizes de uma MLP (notação de Géron).
 
-### 2️⃣ [Otimizar MNIST com Optuna](atividade_02/tarefa2-mnist-optuna/README.md) ✅
+### 2️⃣ [Otimizar MNIST com Optuna](tarefa-2-mnist-optuna/README.md) ✅
 
 Sintonia de hiperparâmetros de uma rede Keras para o MNIST usando [Optuna](https://optuna.org/), com notebook publicado no Kaggle e tabela de resultados de cada trial.
 
