@@ -1,0 +1,18 @@
+{
+  "n_trials": 20,
+  "best_trial": 15,
+  "best_val_accuracy": 0.9771000146865845,
+  "best_params": {
+    "n_layers": 2,
+    "optimizer": "adam",
+    "lr": 0.0013441534062383206,
+    "batch_size": 128,
+    "dropout": 0.0037180543197952998,
+    "n_units_l0": 177,
+    "n_units_l1": 130
+  },
+  "final_test_loss": 0.08190909773111343,
+  "final_test_accuracy": 0.9739999771118164,
+  "baseline_test_loss": 0.08827163279056549,
+  "baseline_test_accuracy": 0.9735000133514404
+}
