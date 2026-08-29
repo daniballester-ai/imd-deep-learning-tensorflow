@@ -22,7 +22,7 @@ Exploração guiada dos hiperparâmetros de uma MLP no [TensorFlow Playground](h
 
 Sintonia de hiperparâmetros de uma rede Keras para o MNIST usando [Optuna](https://optuna.org/), com notebook publicado no Kaggle e tabela de resultados de cada trial.
 
-### 3️⃣ [Reprodução em PyTorch das CNNs do artigo Silva Filho et al. (2022)](atividade_02/tarefa3-cnn-pytorch-emnist/README.md) ✅
+### 3️⃣ [Reprodução em PyTorch das CNNs do artigo Silva Filho et al. (2022)](tarefa-3-cnn-pytorch-emnist/README.md) ✅
 
 Reprodução das melhores arquiteturas CNN identificadas no artigo sobre o *Multiprova Corretor*, aplicadas a subconjuntos do EMNIST (dígitos, letras e V/F), com exportação dos modelos e análise de tamanho/parâmetros treináveis.
 
