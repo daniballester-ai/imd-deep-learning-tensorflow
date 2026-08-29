@@ -14,9 +14,7 @@ Sintonia de hiperparâmetros de uma rede Keras para o MNIST usando [Optuna](http
 
 ## 📓 Notebook
 
-- **Notebook publicado no Kaggle (executado; resultados oficiais desta entrega):** https://www.kaggle.com/code/danielleballester/mnist-optuna-tuning-ppgti-atividade-02
-- Fonte de verdade (script gerador do notebook): [`build_notebook.py`](build_notebook.py)
-- Script Python equivalente às células (para rodar fora do Kaggle): [`mnist_optuna.py`](mnist_optuna.py)
+- **Notebook publicado no Kaggle (executado; resultados oficiais desta entrega):** [https://www.kaggle.com/code/danielleballester/mnist-optuna-tuning-ppgti-atividade-02](https://www.kaggle.com/code/danielleballester/mnist-optuna-tuning-ppgti-atividade-02)
 
 ## ⚙️ Espaço de busca
 
@@ -31,19 +29,19 @@ Amostrador: `TPESampler`. Pruner: `MedianPruner` (aborta trials com desempenho a
 
 ## 📊 Resultados oficiais (execução no Kaggle, 20 trials, seed=42)
 
-| Métrica | Valor |
-|---|---|
-| Trials executados | 20 (2 interrompidos pelo pruner: #7, #10) |
-| Melhor trial | #15 |
-| Melhor val_accuracy (Optuna) | 0,9771 |
-| **Modelo final — acurácia de teste** | **0,9740** |
-| Modelo final — perda de teste | 0,0819 |
-| Baseline (1 camada×128, Adam, lr padrão) — acurácia de teste | 0,9735 |
-| Baseline — perda de teste | 0,0883 |
+| Métrica                                                         | Valor                                    |
+| ---------------------------------------------------------------- | ---------------------------------------- |
+| Trials executados                                                | 20 (2 interrompidos pelo pruner:#7, #10) |
+| Melhor trial                                                     | #15                                      |
+| Melhor val_accuracy (Optuna)                                     | 0,9771                                   |
+| **Modelo final — acurácia de teste**                     | **0,9740**                         |
+| Modelo final — perda de teste                                   | 0,0819                                   |
+| Baseline (1 camada×128, Adam, lr padrão) — acurácia de teste | 0,9735                                   |
+| Baseline — perda de teste                                       | 0,0883                                   |
 
 Melhores hiperparâmetros encontrados: 2 camadas densas (177 → 130 unidades), otimizador **Adam**, learning rate ≈ **0,00134**, batch size **128**, dropout ≈ **0,0037**.
 
-Tabela completa de todos os 20 trials: [`optuna_trials.csv`](optuna_trials.csv) · resultados agregados: [`optuna_results.json`](optuna_results.json)
+Tabela completa de todos os 20 trials: [`optuna_trials.csv`](optuna_trials.csv)
 
 ## 💬 Comentário sobre o ajuste final
 
